@@ -1,0 +1,64 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/base": "^5.0.0-alpha.110",
+    "@mui/material": "^5.11.0",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@paypal/react-paypal-js": "^7.8.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "cache-manager": "^5.1.4",
+    "emailjs": "^4.0.1",
+    "firebase": "^8.10.1",
+    "mdb-react-ui-kit": "^5.1.0",
+    "qr-code-styling": "^1.6.0-rc.1",
+    "qrcode": "^1.5.1",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-pay-icons": "^3.1.0",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-router-dom": "^6.5.0",
+    "react-scripts": "5.0.1",
+    "react-scrollbars-custom": "^4.1.1",
+    "react-social-icons": "^5.15.0",
+    "react-star-ratings": "^2.3.0",
+    "react-toastify": "^9.1.1",
+    "reactjs-popup": "^2.0.5",
+    "reactstrap": "^9.1.5",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+#cust {
+  /* margin: 0 0 240px 240px 0; */
+  margin-left:240px;
+}
+.patlist{
+  color: blue;
+ 
+  
+
+}
+.form-doc{
+  color: red;
+  background-color: rgb(25, 189, 49);
+}
+.signout{
+  margin: 5px 5px 5px 5px;
+}
+#cust {
+  
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  color:  white;
+  align-items: center;
+  background-color: rgb(85, 83, 83);
+  margin-bottom: 10px;
+}
+
+#cust td, #cust th {
+  border: 1px solid #11c62f;
+
+}
+#cust tr:nth-child(even){background-color: #3e11c6;}
+#cust tr:nth-child(even):hover{background-color: rgb(111, 160, 240);}
+#cust th:nth-child(4)
+
+#cust tr:hover {background-color: #ddd;}
+
+#cust th {
+ 
+  text-align: left;
+  background-color: #f87810;
+  color: white;
+}
+.wel{
+  margin-left: 60px;
+}

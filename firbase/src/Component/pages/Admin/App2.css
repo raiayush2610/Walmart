@@ -1,0 +1,50 @@
+
+       form {
+          padding: 16px;
+          max-width: 800px;
+          margin-top: 5%;
+          margin-left: 20%;
+          border: 1px solid;
+        
+       }
+       .bottomemail{
+         margin: 0 12px 12px 12px;
+         align-items: center;
+         
+       }
+       
+       hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+       }
+       .registerbtn {
+          background-color: #340df5;
+          color: white;
+          padding: 16px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+       }
+       .registerbtn:hover {
+          opacity: 1.5;
+          background-color: rgb(253, 249, 12);
+       }
+       .registerbtn:disabled {
+        background-color: rgb(253, 12, 241);
+      }
+       a {
+          color: dodgerblue;
+          text-decoration: none;
+       }
+       .signin {
+          background-color: #f1f1f1;
+          text-align: center;
+       }
+       @media (max-width: 800px) {
+          form {
+             width: 100%;
+             margin-left: 0px;
+          }
+       }

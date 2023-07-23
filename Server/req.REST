@@ -1,0 +1,88 @@
+Get http://localhost:2610/cart/Cart/carts
+Content-Type: application/json
+###
+Get http://localhost:2610/QR/getQR
+Content-Type: application/json
+###
+Get http://localhost:2610/QR/getQR/B122
+Content-Type: application/json
+###
+POST  http://localhost:2610/QR/postQR
+Content-Type: application/json
+
+{
+          "id":"B122",
+          "Name":"Ayush Rai",
+          "SitNo":"J27",
+          "Audi":1
+}
+
+
+###
+
+DELETE http://localhost:2610/QR/deleteQR/63b6d2f87c8798964fb0ea88
+Content-Type: application/json
+###
+DELETE http://localhost:2610/QR/empty
+
+###
+GET http://localhost:2610/order/Order/get
+Content-Type: application/json
+
+###
+GET http://localhost:2610/order/paymentMode/COD
+Content-Type: application/json
+###
+GET http://localhost:2610/order/hall/2
+Content-Type: application/json
+###
+
+GET http://localhost:2610/order/E534
+Content-Type: application/json
+
+###
+GET  http://localhost:2610/order/phone/8840099604
+Content-Type: application/json
+###
+
+GET  http://localhost:2610/order/seatno/J27
+Content-Type: application/json
+###
+GET  http://localhost:2610/admin/user 
+Content-Type: application/json
+###a
+GET  http://localhost:2610/admin/getname/master@admin.com
+Content-Type: application/json
+###
+GET http://localhost:2610/record/record/abc
+Content-Type: application/json
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
