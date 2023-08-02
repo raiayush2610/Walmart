@@ -15,6 +15,7 @@ function Admin(){
       email: "",
       password: ""
     });
+    const[ Users,setuser]= useState([null]);
     // const [errorMsg,Toast.error] = useState("")
     const [submitButtonDisabled,setsubmitButtonDisabled] = useState(false)
     const addItem = async() => {
@@ -39,7 +40,7 @@ function Admin(){
             console.log(res);
             const user =res.user.email;// this is email is getting 
             console.log(user);
-            navigate('/Sal')
+            navigate('/Sal',{state:{user:Users}})
 
             setsubmitButtonDisabled(false)
 
@@ -61,8 +62,9 @@ function Admin(){
           <label for="email"><b>Email</b></label>
           <input type="username" placeholder="Enter Email" name="email" onChange={(e)=>setvalues((prev)=>({...prev ,email:e.target.value}))} required/>
           <label for="psw"><b>Password</b></label>
+          
           <input type="password" placeholder="Enter Password" name="psw" onChange={(e)=>setvalues((prev)=>({...prev ,password:e.target.value}))} required/>
-         
+          <input onChange={(e)=>setuser(e.target.value) }className="bottomemail" placeholder ="User"/>
           <hr/>
          
           <p>By creating an account you agree to our .</p>

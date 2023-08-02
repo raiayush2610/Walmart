@@ -24,7 +24,7 @@ function App() {
                     <Routes>
                       {/* Private routes */}
                        
-             s         <Route element={<RequireAuth/>}> 
+                     <Route element={<RequireAuth/>}> 
                         <Route path= "/Master" element = {<Master />} />
                         <Route path ="/Mastable" element= {<Datatable2/>}/>
                         <Route path= "/Sal" element = {<Salve />} />

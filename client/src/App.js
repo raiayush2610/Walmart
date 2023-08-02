@@ -1,5 +1,6 @@
 // client app.js
 import React from "react";
+
 import NoPage from './Component/pages/NoPage/nopage'
 
 import Payment from './Component/pages/Payment';

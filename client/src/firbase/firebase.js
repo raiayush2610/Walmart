@@ -19,4 +19,5 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 // const provider = auth.GoogleAuthProvider
 export  {auth,app }
+export const storage = getStorage(app, "gs://tapop-84999.appspot.com");
 // Initialize Firebase Authentication and get a reference to the service
